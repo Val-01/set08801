@@ -1,0 +1,14 @@
+  .sliding-background {
+    background: url("../../assets/images/backgrounds/menu.gif");
+    height: 650px;
+    width: 5076px;
+    z-index: 900;
+    position: fixed;
+    top: 10px;
+    left: 330px;
+  }
+
+
+  .blend {
+    background-color: #191c31;
+  }

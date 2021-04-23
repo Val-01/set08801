@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'press_start_2pregular';
+    src: url('pressstart2p-regular/pressstart2p-regular-webfont.woff2') format('woff2'),
+         url('pressstart2p-regular/pressstart2p-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+@font-face {
+    font-family: 'baron_kuffnerregular';
+    src: url('barron_kuffner/baron_kuffner-webfont.woff2') format('woff2'),
+         url('barron_kuffner/baron_kuffner-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}

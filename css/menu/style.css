@@ -1,0 +1,101 @@
+html, body {
+    height: 100%;
+    overflow: hidden;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: table;
+    font-weight: 100;
+    font-family: 'Karla';
+}
+
+.container {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.content {
+    text-align: center;
+    display: inline-block;
+}
+
+.title {
+    font-size: 96px;
+    z-index: 950;
+    position: fixed;
+    left: 15px;
+    top: 0px;
+    color: #ff2400;
+    font-family: 'baron_kuffnerregular';
+    font-size: 130px;
+}
+
+.start {
+    margin-top: 30px;
+    z-index: 950;
+    position: fixed;
+    left: 15px;
+    top: 400px;
+    font-family: 'baron_kuffnerregular';
+    font-size: 17px;
+}
+
+.start a {
+  text-decoration: none;
+  font-size: 150%;
+  color: white;
+}
+
+.load {
+    margin-top: 30px;
+    z-index: 950;
+    position: fixed;
+    left: 15px;
+    top: 440px;
+    font-family: 'baron_kuffnerregular';
+    font-size: 17px;
+}
+
+.load a {
+  text-decoration: none;
+  font-size: 150%;
+  color: white;
+}
+
+.about {
+    margin-top: 30px;
+    z-index: 950;
+    position: fixed;
+    left: 15px;
+    top: 480px;
+    font-family: 'baron_kuffnerregular';
+    font-size: 17px;
+}
+
+.about a {
+  text-decoration: none;
+  font-size: 150%;
+  color: white;
+}
+
+.version {
+    margin-top: 30px;
+    z-index: 950;
+    position: fixed;
+    left: 15px;
+    top: 590px;
+    font-family: 'baron_kuffnerregular';
+    font-size: 21px;
+    color: #d28200;
+}
+
+a:hover {
+  color: red;
+}
+
+a:visited { 
+    text-decoration: none; 
+   }

@@ -1,0 +1,82 @@
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+body{
+  background-color: black;
+  overflow: hidden;
+}
+
+
+.sidenav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+  font-family: 'baron_kuffnerregular';
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 160px;
+  padding: 0px 10px;
+}
+
+
+#typewriter {
+  font-size: 20px;
+  margin: 0;
+  font-family: "Courier New";
+  text-align: center;
+  color: white;
+}
+#typewriter:after {
+  content: "|";
+  -webkit-animation: blink 500ms linear infinite alternate;
+          animation: blink 500ms linear infinite alternate;
+}
+
+@-webkit-keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+.continue{
+  font-family: 'baron_kuffnerregular';
+}
+
+.menu{
+  position: relative;
+  top: 400px;
+}
